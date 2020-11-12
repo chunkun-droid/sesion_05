@@ -23,6 +23,10 @@ body{
         color: black;
     }
 
+    .publish{
+        font-size: 10px;
+    }
+    
     .publish > form {
         flex-direction: column;
       }
@@ -36,12 +40,12 @@ body{
         width: 65%;
       }
     
-      .explanatory-video{
+      .explanatory-video > video{
           width: 100%;
           margin: 5;
       }
       .explanatory-video > img{
-        width: 30%
+        width: 50%
     }
 }
 
